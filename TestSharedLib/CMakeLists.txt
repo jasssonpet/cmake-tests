@@ -1,1 +1,1 @@
-add_library(TestSharedLib SHARED TestSharedLib.h TestSharedLib.mm)
+add_library(TestSharedLib SHARED TestSharedLib.h TestSharedLib.m)
