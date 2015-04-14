@@ -8,9 +8,9 @@
 int main(int argc, char* argv[])
 {
     id object = [[NSObject alloc] init];
-    NSLog(@"Add: %d", [object respondsToSelector:@selector(addNumbers::)]);
-    NSLog(@"Multiply: %d", [object respondsToSelector:@selector(multiplyNumbers::)]);
-    NSLog(@"Subtract: %d", [object respondsToSelector:@selector(subtractNumbers::)]);
+    NSLog(@"Add: %d", [object respondsToSelector:NSSelectorFromString(@"addNumbers::")]);
+    NSLog(@"Multiply: %d", [object respondsToSelector:NSSelectorFromString(@"multiplyNumbers::")]);
+    NSLog(@"Subtract: %d", [object respondsToSelector:NSSelectorFromString(@"subtractNumbers::")]);
 
     // NSLog(@"Add: %d", addNumbers(2, 3));
     // NSLog(@"Multiply: %d", multiplyNumbers(4, 5));
