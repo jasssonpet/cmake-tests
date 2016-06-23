@@ -5,7 +5,7 @@ set_target_properties(TestFramework PROPERTIES
   PUBLIC_HEADER "TestFramework.h"
 )
 
-set_target_properties(TestSharedLib PROPERTIES
+set_target_properties(TestFramework PROPERTIES
   XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY "iPhone Developer"
 )
 
